@@ -9,11 +9,7 @@ module.exports = {
     },
     ecmaVersion: 'latest'
   },
-  plugins: [
-    '@typescript-eslint/eslint-plugin',
-    'react',
-    'prettier'
-  ],
+  plugins: ['@typescript-eslint/eslint-plugin', 'react', 'prettier'],
   extends: [
     'eslint:recommended',
     'plugin:react/recommended',
@@ -42,4 +38,4 @@ module.exports = {
       version: 'detect' // Tự động phát hiện phiên bản React
     }
   }
-};
+}
